@@ -59,13 +59,8 @@ app.use(function(err, req, res, next) {
 })
 
 
-app.listen(process.argv[2], function () {
-  console.log('Node.js listening ...');
-});
 
-/*
 app.listen(process.env.PORT, function () {
   console.log('Node.js listening ...');
 });
-*/
 
